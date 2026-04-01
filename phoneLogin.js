@@ -60,7 +60,6 @@ async function login() {
         }
       } else {
         printRed("PAT变量缺失")
-
       }
     } else if (result.error_code === 34175) {
       throw new Error("暂不支持多账号绑定手机登录")
